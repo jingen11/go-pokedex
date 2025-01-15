@@ -2,7 +2,7 @@ package repl
 
 import "strings"
 
-func cleanInput(text string) []string {
+func CleanInput(text string) []string {
 	sanitised := strings.Trim(text, " ")
 
 	arr := strings.Split(sanitised, " ")
